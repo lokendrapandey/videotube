@@ -18,7 +18,7 @@
                 resource_type:"auto"
             })
             // file has been uploaded succesfully
-            console.log("file is uploaded on cloudinary", response.url);
+            // console.log("file is uploaded on cloudinary", response.url);
             return response;
         } catch (error) {
             console.log("some error in cloudinary")
@@ -33,7 +33,8 @@
             'https://res.cloudinary.com/demo/image/upload/getting-started/shoes.jpg', {
                 public_id: 'shoes',
             },
-            function(error, result) {console.log(result); });
+            function(error, result) {console.log("successfull"); });
+            // function(error, result) {console.log(result); });
         
         // console.log(uploadResult);
         

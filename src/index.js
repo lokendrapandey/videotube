@@ -15,7 +15,19 @@ connectDB()
 }))
 .catch((err)=> console.log("MONGODB CONNECTION FAILED !!1",err));
 
-// .then(()=>( app.listen(process.env.PORT || 8000) , () =>{
-//     console.log(`server ie running at port : ${process.env.PORT}`)
-// } ))
-// .catch((err)=> console.log("mongo db connection failed !!!1", err));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
